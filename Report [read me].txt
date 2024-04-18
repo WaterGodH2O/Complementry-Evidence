@@ -1,0 +1,30 @@
+This short report shows what I did during my internship.
+
+This company is a Elevator door machine company, they mainly do some things with the door of elevator(both of Control system design and Machinery design).
+
+I did not do the machine part, but the control program part. The whole control program is based on the chip STM32F103RBT6 made by STM32. I attached the PDF version of document of this chip in the evidence. The usage of the pin of the chip is introduced on page 4.
+
+I spend a dozen days to read the control program and this document to understand how this controller work, but it is too complicated to understand them all by a short internship. In the end of internship I just understand how the DoorFunction works(and some of pins, I did not know what most of pins are used for).
+
+The video 1 shows me downloading my program to the controller to test it. And video 2 shows how it works. ( I did not record the failed version of it) The function that  I implemented is simple, it just about closing the door, and if the door clamp something which it should not clamp, stop closing and reopen the door. Sounds simple, but not so easy to implement in the program. I spend so much time setting the power of the electric motor to achieve a suitable speed of the door. The speed is not only related to the power of motor, but also the weight of door.(we need this controller to be suitable for different types of doors). So it cannot be set to a constant value. The whole program is attached in this file. ( I have asked for the permission for this. but do not pubulish it in anywhere)
+
+In additional to this, I also assisted other staff to complete some functions, but due to the confidentiality requirements of the company, the code of this part of functions cannot be provided, and I can only provide the part I wrote.
+
+Internship evidence.jpg is a photo of the certificate of internship provided by company, here is the translation:
+========================================================================
+
+hereby have Warwick University (University of Warwick) University Computer system engineering professional students Zi Yang in our company for internship, internship period for the period of 3 April 2024 to 16 April 2024, during the period of working as an internship Electronics Engineer work, the situation is true, hereby certified.
+
+Company name: Shanghai Iridium Auxiliary Electronic Technology Co.   
+Address: Lane 123, Shenmei Road, Pudong New Area, Shanghai, China
+Contact: Zhu Wenxing                    
+Tel：+86 15901802124             
+
+Company seal:                          
+2024 Apr 18
+=====================================================================
+
+
+
+
+

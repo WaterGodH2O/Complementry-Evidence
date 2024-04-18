@@ -1,0 +1,3 @@
+The main function is not written by me, I only wrote the 1537-1923 lines of BstDoorFun.c
+
+this program is not complieable, cause there miss so many function and defination of class. I only reserved part of my code.
